@@ -1,5 +1,10 @@
 import pytest
 import pandas as pd
+
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from train_model import model, X_test, y_test, X_train, y_train
 from sklearn.metrics import r2_score
 
