@@ -27,5 +27,5 @@ jobs:
           pip install numpy xgboost scikit-learn pandas pytest
 
       - name: Run tests 
-        run: pytest test_pipeline.py
+        run: pytest tests/test_pipeline.py
 
